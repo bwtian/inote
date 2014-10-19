@@ -1,0 +1,56 @@
+% In the preamble:
+% arara: pdflatex: { synctex: on }
+% arara: bibetex
+% arara: makeglossaries
+% arara: makeindex
+% arara: pdflatex: { synctex: on }
+% arara: pdflatex: { synctex: on }
+
+%\usepackage[nonumberlist,acronym]{glossaries}
+%nonumberlist, %do not show page numbers
+%acronym,      %generate acronym listing
+%toc,          %show listings as entries in table of contents
+%section       %use section level for toc entries
+
+% Define a new glossary type %Generate a list of symbols
+\newglossary[slg]{symbols}{syi}{syg}{List of symbols}
+%\newglossary[slg]{symbols}{sym}{sbl}{List of Symbols}
+
+%Remove the dot at the end of glossary descriptions
+%\renewcommand*{\glspostdescription}{}
+
+%Activate glossary commands
+\makeglossaries
+%%% Main Glossary == Defination 
+%%\newglossaryentry{label}{name,description,plural,sort}
+% \gls,Gls,GLS,glspl{label} 
+%\printglossary
+%Some glossary terms
+\newglossaryentry{illuminance}{
+name=Illuminance,
+description={Light flux striking a surface, measured in Lux (lx).}
+}
+
+% The following definitions will go in the list of acronyms
+%%% Acronym == Abbreviation: 
+% %\newacronym{label}{name,description,plural,sort}
+%\printglossary[type=\acronymtype,title=Abbreviations]
+\newacronym{MS}{MS}{Microsoft}
+\newacronym{CD}{CD}{Compact Disc}
+\newacronym{LST}{LST}{Land Surface Temperature}
+\newacronym{LSE}{LSE}{Land Surface Emissivity}
+
+% The following definitions will go in the list of symbols
+%%% Nomenclature == list of symbols
+%\printglossary[title=Nomenclature]
+%Some entries for the list of symbols
+\newglossaryentry{nslats}{
+name=$nslats$,
+description={The number of slats},
+sort=S, type=symbols, symbol=[$-$]}
+
+\newglossaryentry{h}{
+name=$h$,
+description={Height},
+sort=h, type=symbols, symbol=[$m$]}
+
