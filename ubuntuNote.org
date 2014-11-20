@@ -1,0 +1,20 @@
+* Disk Planing
+Each disk give 4 partion boot root root share
+* Load share disk use /etc/fstab
+#+BEGIN_EXAMPLE
+### Attach Share Disk
+UUID=4C62C55462C54404  /home/tian/Win7   ntfs   0  defaults 0
+#+END_EXAMPLE
+* Delete Folders
+Desktop  Documents  Downloads  Music  Pictures  Public  R  Share  SparkleShare  Templates  ubuntuNote.org  ubuntuNote.org~  Videos  Win7
+* Put all non-systems stuff on Share Partion
+#+BEGIN_SRC sh
+ln -sfv  ~/Win7/Air Share
+#+END_SRC
+
+#+BEGIN_SRC sh
+ln -sfv ~/Share/Dropbox Dropbox 
+ln -sfv ~/Share/SparkleShare SparkleShare
+ln -sfv ~/Share/Downloads Downloads
+#+END_SRC
+* Control all soft by Shell
