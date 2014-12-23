@@ -37,7 +37,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |                | abbrv              | abbrvnat           | style=numeric,firstinits=true |                                    |                   |
 |                | unsrt              |                    | style=numeric,sorting=none    |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| autoyear style | alpha              |                    | style=alphabetic              |                                    |                   |
+| ap style | alpha              |                    | style=alphabetic              |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 
 
