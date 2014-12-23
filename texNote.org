@@ -20,7 +20,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | authoryear    |        | citeauthor  |          |                                    |                   |
 |               |        | citeauthor* |          |                                    |                   |
 |               |        | citeyear    |          |                                    |                   |
-|               |        |             |          |                                    |                   |
+|               |        | citeyearpar |          |                                    |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
 | chapterbib    |        |             |          |                                    |                   |
 | bibentry      |        |             |          |                                    |                   |
