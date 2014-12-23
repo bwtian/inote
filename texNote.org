@@ -12,7 +12,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | to natbib      | \let\cite\citep    | \citep             | natbib=true                   |                                    |                   |
 | to biblatex    |                    |                    | \let\cite\parencite           |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| textual        |                    | \citet             | \textcite  \autocite          | Jones et al. (1990)                | Jones et al. [21] |
+| textual        | \cite              | \citet             | \textcite  \autocite  \cite   | Jones et al. (1990)                | Jones et al. [21] |
 | full authors   |                    | \citet*            |                               | Jones, Baker, and Williams (1990)  |                   |
 |                |                    | \citealt           |                               | Jones et al. 1990                  |                   |
 |                |                    | \citealt*          |                               | Jones, Baker, and Williams 1990    |                   |
