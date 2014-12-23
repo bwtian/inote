@@ -1,10 +1,10 @@
 | Bibliography | bibtex | natbib | biblatex |
 |--------------+--------+--------+----------|
-| Backend      |        |        |          |
+| Backend      | bibtex | bibtex | biber    |
 | Options      | cite   |        |          |
 |--------------+--------+--------+----------|
 |              |        | citep  |          |
 |              |        | citet  |          |
-|              |        |        |          |
+| Chapter      |        |        |          |
 |              |        |        |          |
 |              |        |        |          |
