@@ -40,8 +40,8 @@ http://merkel.zoneo.net/Latex/natbib.php
 | alpha style   | alpha              |                    | style=alphabetic              |                                    |                   |
 | [Tian14]      |                    |                    |                               |                                    |                   |
 |---------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| authoryear... |                    |                    | style=authoryear, sorting=ynt | year, name, title.                 |                   |
-| (Tian and     |                    |                    |                               |                                    |                   |
+| authoryear... |                    |                    | style=authoryear, sorting=ynt | year, name,  volume, title.               |                   |
+| (Tian and     |                    |                    | nty, nyvt,                    |                                    |                   |
 | Wang, 2014)   |                    |                    |                               |                                    |                   |
 |---------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 
