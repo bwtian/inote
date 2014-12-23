@@ -34,11 +34,11 @@ http://merkel.zoneo.net/Latex/natbib.php
 | bibentry      | \bibentry          | \bibentry          | \fullcite                     |                                    |                   |
 |---------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | numeric style | plain              | plainat            | style=numeric                 |                                    | ieeetr, mdpi      |
-| [1]            | abbrv              | abbrvnat           | style=numeric,firstinits=true |                                    |                   |
+| [1]           | abbrv              | abbrvnat           | style=numeric,firstinits=true |                                    |                   |
 |               | unsrt              |                    | style=numeric,sorting=none    |                                    |                   |
 |---------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | alpha style   | alpha              |                    | style=alphabetic              |                                    |                   |
-| [Tian2014]      |                    |                    |                               |                                    |                   |
+| [Tian14]      |                    |                    |                               |                                    |                   |
 |---------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | authoryear... |                    |                    |                               |                                    |                   |
 |               |                    |                    |                               |                                    |                   |
