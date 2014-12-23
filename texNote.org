@@ -6,7 +6,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | Backend       | bibtex          | bibtex      | biber                         |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
 | Options       | cite            | citep       | cite                          | \citeX{jon90}                      |                   |
-| to natbib     | \let\cite\citep |             | natbib=true                   |                                    |                   |
+| to natbib     | \let\cite\citep | citep       | natbib=true                   |                                    |                   |
 | to biblatex   |                 |             | -                             |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
 | textual       |                 | citet       |                               | Jones et al. (1990)                | Jones et al. [21] |
