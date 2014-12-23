@@ -47,7 +47,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | authortitle    |                    |                    |                               |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-
+http://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib
 
 https://www.sharelatex.com/blog/2013/07/31/getting-started-with-biblatex.html
 \usepackage[hyperref=true,
