@@ -5,7 +5,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | Backend        | bibtex             | bibtex             | biber                         |                                    |                   |
 | Add .bib       | \bibliography{}    | \bibliography{}    | \addbibresource{}             |                                    |                   |
-| Print Bib      | \bibliographystyle | \bibliographystyle | [style, ]                     |                                    |                   |
+| Print Bib      | \bibliographystyle | \bibliographystyle | [style, citestyle, ]                   |                                    |                   |
 |                |                    |                    | \printbibliography            |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | to bibtex      | \cite              |                    | \cite                         | \citeX{jon90}                      |                   |
