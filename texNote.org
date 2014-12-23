@@ -41,7 +41,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | [Tian14]       |                    |                    | biblatex-apa                  |                                    |                   |
 | square bracket |                    |                    |                               |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| authoryear...  |                    |                    | style=authoryear, sorting=nty | year, name, volume, title.         |                   |
+| authoryear...  |                    |                    | style=authoryear,sorting=nty  | year, name, volume, title.         |                   |
 | (Tian and      |                    |                    | nty, nyvt, ydnt,none          | descending                         |                   |
 | Wang, 2014)    |                    |                    |                               |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
