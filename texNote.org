@@ -94,3 +94,10 @@ If you don’t specify an order the default is nty.
 \parencite - prints citations in parentheses except when using the alphabetic or numeric style when it uses square brackets.
 
 \footcite - puts the citation in a footnote.
+* Subdividing Bibliographies
+
+One of the nice things about biblatex is that you can subdivide bibliographies according to source type. Here’s an example of subdividing by source type:
+
+\printbibheading
+\printbibliography[type=book,heading=subbibliography,title={Book Sources}]
+\printbibliography[nottype=book,heading=subbibliography,title={Other Sources}]
