@@ -100,4 +100,8 @@ One of the nice things about biblatex is that you can subdivide bibliographies a
 
 \printbibheading
 \printbibliography[type=book,heading=subbibliography,title={Book Sources}]
-\printbibliography[nottype=book,heading=subbibliography,title={Other Sources}]
+\printbibliography[nottype=book,heading=subbibliography,title={Other Sources}
+
+\printbibheading
+\printbibliography[keyword=major,heading=subbibliography,title={Major Sources}]
+\printbibliography[keyword=minor,heading=subbibliography,title={Minor Sources}]
