@@ -106,6 +106,7 @@ One of the nice things about biblatex is that you can subdivide bibliographies a
 \printbibliography[keyword=major,heading=subbibliography,title={Major Sources}]
 \printbibliography[keyword=minor,heading=subbibliography,title={Minor Sources}]
 Note that I used \autocite instead of \parencite which is the actual counterpart of natbib's \citep. \autocite is a high-level citation command that will be translated into the low-level bare citation command appropriate for the chosen style - e.g. it will enclose a citation in parentheses in authoryear styles, but produce a footnote citation in authortitle styles. Even more, it will automatically move trailing punctuation.
+http://tex.stackexchange.com/questions/5091/what-to-do-to-switch-to-biblatex
 
 For some of the custom (not already built-in) biblatex styles, additional preamble adjustments may be advisable - see the example provided by Seamus for biblatex-apa.
 
