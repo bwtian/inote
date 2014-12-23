@@ -29,3 +29,23 @@ http://merkel.zoneo.net/Latex/natbib.php
 | bibentry      |        |             |          |                                    |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
 
+\usepackage[style=authoryear,sorting=ynt]{biblatex}
+This would use the author-year style and then sort the bibliography entries by year, name, title. Here’s a list of some of the different sorting options available:
+
+nty - Sorts entries by name, title, year.
+
+nyt - Sorts entries by name, year, title.
+
+nyvt - Sorts entries by name, year, volume, title.
+
+anyt - Sorts entries by alphabetic label, name, year, title.
+
+anyvt - Sorts entries by alphabetic label, name, year, volume, title.
+
+ynt - Sorts entries by year, name, title.
+
+ydnt - Sorts entries by year (descending order), name, title.
+
+none - No sorting. Entries appear in the order they appear in the text.
+
+If you don’t specify an order the default is nty.
