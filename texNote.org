@@ -7,7 +7,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |---------------+--------+-------------+-------------------------------+------------------------------------+-------------------|
 | Options       | cite   | citep       | cite                          | \citeX{jon90}                      |                   |
 | to natbib     |        |             |                               |                                    |                   |
-| to biblatex   |        |             |                               |                                    |                   |
+| to biblatex   |        |             | natbib=true                   |                                    |                   |
 |---------------+--------+-------------+-------------------------------+------------------------------------+-------------------|
 | textual       |        | citet       |                               | Jones et al. (1990)                | Jones et al. [21] |
 | full authors  |        | citet*      |                               | Jones, Baker, and Williams (1990)  |                   |
