@@ -1,0 +1,74 @@
+%%http://tex.stackexchange.com/questions/145944/make-symbol-index-with-description
+\documentclass{report}
+
+\usepackage{amsfonts}
+\usepackage[nomain,section,sort=def]{glossaries}
+\usepackage{glossary-mcols}
+
+% (Pre glossaries v4.0 requires \glossarystyle rather than
+% \setglossarystyle)
+\setglossarystyle{mcolindex}
+\renewcommand{\glspostdescription}{\dotfill}
+
+\newglossary[op-glg]{operators}{op-gls}{op-glo}{Operators}
+\newglossary[cn-glg]{constants}{cn-gls}{cn-glo}{Constants}
+
+\makeglossaries
+
+% Define a command to define operators
+% Syntax: \newoperator[options]{label}{operator symbol}
+
+\newcommand*{\newoperator}[3][]{%
+  \newglossaryentry{#2}{type=operators,%
+    name={$#3$},text={#3},description={},#1}%
+}
+
+% Similarly for constants
+
+\newcommand*{\newconstant}[3][]{%
+  \newglossaryentry{#2}{type=constants,%
+    name={$#3$},text={#3},description={},#1}%
+}
+
+% Define operators
+
+\newoperator{Mop}{\mathcal{M}}
+\newoperator{Aalpha}{A_\alpha}
+\newoperator{nablaOmega}{\nabla_\Omega}
+\newoperator{T}{T}
+\newoperator{I2}{I_2}
+\newoperator{Jz}{J_z}
+\newoperator{Gz}{G_z}
+
+% Define constants
+
+\newconstant{pdash}{p'}
+\newconstant{jnu}{j_\nu}
+\newconstant{Mcn}{\mathfrak{M}}
+\newconstant{Dpq}{D_{p,q}}
+
+\begin{document}
+\chapter{Sample Chapter}
+
+Some sample usage of constants:
+\[
+ \gls{pdash}, \gls{Mcn}, \gls{jnu}
+\]
+
+Some sample usage of operators:
+\[
+  \gls{Mop}, \gls{Aalpha}, \gls{nablaOmega}
+\]
+
+\newpage
+
+More sample usage:
+\[
+\gls{T}, \gls{I2}, \gls{Jz}, \gls{Gz},
+\gls{Mcn}, \gls{Dpq}, \gls{jnu}
+\]
+
+\chapter*{Index}
+
+\printglossaries
+\end{document}
