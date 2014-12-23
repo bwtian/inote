@@ -38,7 +38,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | square bracket | unsrt              |                    | style=numeric,sorting=none    |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | alpha style    | alpha              |                    | style=alphabetic              |                                    |                   |
-| [Tian14]       |                    |                    |                               |                                    |                   |
+| [Tian14]       |                    |                    | biblatex-apa                  |                                    |                   |
 | square bracket |                    |                    |                               |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 | authoryear...  |                    |                    | style=authoryear, sorting=nty | year, name, volume, title.         |                   |
