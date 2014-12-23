@@ -133,3 +133,107 @@ Multiple or subdivided bibliographies will always be processed in a single pass.
 Many biblatex features introduced since v1.1 (e.g., advanced name disambiguation, smart crossref data inheritance, configurable sorting schemes, dynamic datasource modification) are "Biber only".
 
 Biber is included in TeXLive and MiKTeX; latexmk also supports the use of Biber.
+
+apalikeThe NATBIB Citation commands
+The natbib package defines a number of very useful citation commands which replace the usual \cite. These are really necessary in any author-year citation system, where you don't always cite a reference using the same format for the citation. These commands and their output are illustrated below. The most frequently used are \citet (textual cite) and \citep (parenthetical cite). \cite is equivalent to \citet, but this shouldn't be used because it is often defined by other style files.
+\citet{KEY}
+Bester et al. (1998)
+\citep{KEY}
+(Bester et al. 1998)
+Multiple citations work within a single cite, for example
+\citep{KEY1, KEY2, KEY3, KEY4, ...}
+(Bester et al. 1998; Garibaldi et al. 1997, 1998a,b; ...)
+The lettering of the citations and references is done automatically.
+You can use optional arguments to get text before and after the citation(s):
+\citep[hereafter B98]{KEY}
+(Bester et al. 1998, hereafter B98)
+\citep[e.g.,][]{KEY}
+(e.g., Bester et al. 1998)
+\citep[see][p. 68]{KEY}
+(see Bester et al. 1998, p. 68)
+Any of these can have a * affixed to make a full author list when "et al." would normally be used, e.g.,
+\citet*{KEY}
+Bester, Winters, & Alexander (1998)
+Note that the nat2jour.pl script takes care of the bizarre practice of listing three names on the first citation and using "et al." thereafter, so you don't need to worry about that, although the intermediate file will come out "wrong".
+\citeauthor{KEY}
+Bester et al.
+\citeyear{KEY}
+1998
+\citeyearpar{KEY}
+(1998)
+\citealp and \citealt are the sames as \citep and \citet, respectively, except that they do not produce any parentheses at all:
+\citealt{KEY}
+Bester et al. 1998
+Finally, \citetext can be used to place arbitrary text around a citation. Look at the comments in the natbib style files for more information.
+
+ 
+ 
+Options for NATBIB
+usepackage[options]{natbib} 
+ 
+
+ 
+round
+(default) for round parentheses;
+square
+for square brackets;
+curly
+for curly braces;
+angle
+for angle brackets;
+colon
+(default) to separate multiple citations with colons;
+comma
+to use commas as separators;
+authoryear
+(default) for author­year citations;
+numbers
+for numerical citations;
+super
+for superscripted numerical citations, as in Nature;
+sort
+orders multiple citations into the sequence in which they appear in the list of references;
+sort&compress as sort but in addition multiple numerical citations are compressed if possible (as 3­6, 15);
+longnamesfirst makes the first citation of any reference the equivalent of the starred variant (full author list) and subsequent citations normal (abbreviated list); 
+ 
+ 
+Usage
+Just include the package natbib with the proper options before \begin{document} like 
+ 
+ 
+\documentclass[11pt]{psuthesis} 
+..... 
+%% optional packages, in case you want AMS math macros and AMS symbols
+\usepackage[comma,authoryear]{natbib} %% Here goes the natbib declaration ( Other options can be given) 
+.... 
+ 
+
+  
+ 
+\begin{document}
+...
+citet{KEY}
+%% Citatitions
+\citep{KEY}
+...
+
+ 
+ 
+\bibliographystyle{ieeetr} 
+% or: plain,unsrt,alpha,abbrv,acm,apalike,...
+\bibliography{abbr_long,pubext} 
+...
+\end{document} 
+ 
+  
+ 
+ 
+Useful websites for Natbib Help 
+ 
+ 
+http://www.tug.org.in/tutorial/chap10-prn.pdf
+http://www.linmpi.mpg.de/english/services/software/latex/localtex/doc/natbib.pdf 
+ 
+  
+ 
+  
