@@ -17,7 +17,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |               |        | citealp     |          | Jones et al., 1990                 |                   |
 |               |        | citealp*    |          | Jones, Baker, and Williams, 1990   |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
-| authoryear    |        | citeauthor  |          |                                    |                   |
+| authoryear    |        | citeauthor  |          | Jones et al.                       |                   |
 |               |        | citeauthor* |          |                                    |                   |
 |               |        | citeyear    |          |                                    |                   |
 |               |        | citeyearpar |          |                                    |                   |
