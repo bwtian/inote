@@ -40,6 +40,7 @@ https://www.sharelatex.com/blog/2013/07/31/getting-started-with-biblatex.html
             block=none]{biblatex}
 
 
+http://www.khirevich.com/latex/bibliography/
 
 \usepackage[style=authoryear,sorting=ynt]{biblatex}
 This would use the author-year style and then sort the bibliography entries by year, name, title. Here’s a list of some of the different sorting options available:
