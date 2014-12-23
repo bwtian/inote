@@ -1,3 +1,3 @@
-| Packages     |   |   |   |   |
-|--------------+---+---+---+---|
-| Bibliography |   |   |   |   |
+| Packages     | bibtex | natbib |   |   |
+|--------------+--------+--------+---+---|
+| Bibliography |        |        |   |   |
