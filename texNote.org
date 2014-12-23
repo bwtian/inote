@@ -61,7 +61,7 @@ https://www.sharelatex.com/blog/2013/07/31/getting-started-with-biblatex.html
 \usepackage[style=authoryear,autocite=footnote]{biblatex}
             block=none]{biblatex}
 
-
+http://tex.stackexchange.com/questions/5091/what-to-do-to-switch-to-biblatex
 http://www.khirevich.com/latex/bibliography/
 backref=true
 
