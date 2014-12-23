@@ -48,7 +48,8 @@ http://merkel.zoneo.net/Latex/natbib.php
 | authortitle    |                    |                    | \footcite                     |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
 http://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib
-
+%\printbibliography[heading=subbibintoc]  % subbib of each chapter in toc
+%\printbibliography[heading=bibintoc]     % bibliography  in toc
 https://www.sharelatex.com/blog/2013/07/31/getting-started-with-biblatex.html
 \usepackage[hyperref=true,
             url=false,
