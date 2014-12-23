@@ -4,6 +4,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | Bibliography   | bibtex          | natbib       | biblatex                      | in line example authoryear         | numbered          |
 |----------------+-----------------+--------------+-------------------------------+------------------------------------+-------------------|
 | Backend        | bibtex          | bibtex       | biber                         |                                    |                   |
+| Add .bib       |                 |              | \addbibresource{}             |                                    |                   |
 |----------------+-----------------+--------------+-------------------------------+------------------------------------+-------------------|
 | to bibtex      | \cite           |              | \cite                         | \citeX{jon90}                      |                   |
 | to natbib      | \let\cite\citep | \citep       | natbib=true                   |                                    |                   |
