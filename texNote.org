@@ -15,7 +15,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |                |                 | \citealt     |                               | Jones et al. 1990                  |                   |
 |                |                 | \citealt*    |                               | Jones, Baker, and Williams 1990    |                   |
 |----------------+-----------------+--------------+-------------------------------+------------------------------------+-------------------|
-| parenthetical  |                 | \citep       |                               | (Jones et al., 1990)               | [21]              |
+| parenthetical  |                 | \citep       | \parencite                    | (Jones et al., 1990)               | [21]              |
 |                |                 | \citep*      |                               | (Jones, Baker, and Williams, 1990) |                   |
 |                |                 | \citealp     |                               | Jones et al., 1990                 |                   |
 |                |                 | \citealp*    |                               | Jones, Baker, and Williams, 1990   |                   |
