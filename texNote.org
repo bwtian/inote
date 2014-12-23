@@ -12,7 +12,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |               |        |        |          |                                   |                   |
 |               |        |        |          |                                   |                   |
 |---------------+--------+--------+----------+-----------------------------------+-------------------|
-| parenthetical |        | citep  |          | (Jones et al., 1990)              |                   |
+| parenthetical |        | citep  |          | (Jones et al., 1990)              | [21]              |
 |               |        | citep* |          |                                   |                   |
 | chapterbib    |        |        |          |                                   |                   |
 | bibentry      |        |        |          |                                   |                   |
