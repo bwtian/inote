@@ -263,4 +263,12 @@ Instead of choosing one of those four commands, one may simply use the higer-lev
 If you want to switch to a non-default citation command (e.g., \footnote for authoryear), you simply add the corresponding package option:
 
 \usepackage[style=authoryear,autocite=footnote]{biblatex} 
-  
+* New style
+%%%% Get plainat.bst
+\usepackage[style=authoryear-comp,firstinits=true,citestyle=authoryear,natbib=true,backend=bibtex]{biblatex}
+\renewcommand\nameyeardelim{, }
+\DeclareNameAlias{sortname}{last-first}
+\renewcommand*{\multinamedelim}{\addcomma\space}
+\renewcommand*{\finalnamedelim}{\addcomma\space}
+\setlength{\bibitemsep}{\baselineskip}
+\renewbibmacro{in:}{}
