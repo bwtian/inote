@@ -28,6 +28,9 @@ http://merkel.zoneo.net/Latex/natbib.php
 | chapterbib    |        |             |          |                                    |                   |
 | bibentry      |        |             |          |                                    |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
+|               |        |             |          |                                    |                   |
+|               |        |             |          |                                    |                   |
+|---------------+--------+-------------+----------+------------------------------------+-------------------|
 plain --> \usepackage[style=numeric]{biblatex}
 
 abbrv --> \usepackage[style=numeric,firstinits=true]{biblatex}
