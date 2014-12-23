@@ -44,7 +44,10 @@ http://www.khirevich.com/latex/bibliography/
 backref=true
 
 % backref=false
-
+\DefineBibliographyStrings{english}{%
+    backrefpage  = {see p.}, % for single page number
+    backrefpages = {see pp.} % for multiple page numbers
+}
 \usepackage[style=authoryear,sorting=ynt]{biblatex}
 This would use the author-year style and then sort the bibliography entries by year, name, title. Here’s a list of some of the different sorting options available:
 
