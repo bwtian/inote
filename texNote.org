@@ -1,7 +1,7 @@
 http://merkel.zoneo.net/Latex/natbib.php
 
 |---------------+--------+--------+----------+-----------------------------------|
-| Bibliography  | bibtex | natbib | biblatex | in line example                   |
+| Bibliography  | bibtex | natbib | biblatex | in line example  auto             |
 |---------------+--------+--------+----------+-----------------------------------|
 | Backend       | bibtex | bibtex | biber    |                                   |
 |---------------+--------+--------+----------+-----------------------------------|
