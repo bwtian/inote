@@ -22,8 +22,8 @@ http://merkel.zoneo.net/Latex/natbib.php
 |               |        | citeyear    |          | 1990                               |                   |
 |               |        | citeyearpar |          | (1990)                             |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
-| \defcitealias |        | citetalias  |          |     Paper1                         |                   |
-|               |        | citepalias  |          |                                    |                   |
+| \defcitealias |        | citetalias  |          | Paper1                             |                   |
+|               |        | citepalias  |          | (Paper1)                           |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
 | chapterbib    |        |             |          |                                    |                   |
 | bibentry      |        |             |          |                                    |                   |
