@@ -234,10 +234,7 @@ Useful websites for Natbib Help
 http://www.tug.org.in/tutorial/chap10-prn.pdf
 http://www.linmpi.mpg.de/english/services/software/latex/localtex/doc/natbib.pdf 
  
-  
-up vote
-10
-down vote
+
 (You are possibly referring to my answer to What to do to switch to biblatex?)
 
 For citations that aren't used in the flow of the text ("As Einstein (1905) showed ...", produced by \textcite), biblatex offers four basic citation commands resp. package options:
