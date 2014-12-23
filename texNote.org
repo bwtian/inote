@@ -49,3 +49,10 @@ ydnt - Sorts entries by year (descending order), name, title.
 none - No sorting. Entries appear in the order they appear in the text.
 
 If you don’t specify an order the default is nty.
+
+
+\cite - the most basic one. Prints without any brackets except when using the alphabetic or numeric style when it uses square brackets.
+
+\parencite - prints citations in parentheses except when using the alphabetic or numeric style when it uses square brackets.
+
+\footcite - puts the citation in a footnote.
