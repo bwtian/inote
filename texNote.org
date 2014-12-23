@@ -33,13 +33,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |               | unsrt  |             | style=numeric,sorting=none    |                                    |                   |
 |               | alpha  |             | style=alphabetic              |                                    |                   |
 |---------------+--------+-------------+-------------------------------+------------------------------------+-------------------|
-plain --> \usepackage[style=numeric]{biblatex}
 
-abbrv --> \usepackage[style=numeric,firstinits=true]{biblatex}
-
-unsrt --> \usepackage[style=numeric,sorting=none]{biblatex}
-
-alpha --> \usepackage[style=alphabetic]{biblatex}
 
 https://www.sharelatex.com/blog/2013/07/31/getting-started-with-biblatex.html
 \usepackage[hyperref=true,
