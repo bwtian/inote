@@ -8,11 +8,11 @@ http://merkel.zoneo.net/Latex/natbib.php
 | Options       | cite   |        |          | \citeX{jon90}                     |
 |---------------+--------+--------+----------+-----------------------------------|
 | textual       |        | citet  |          | Jones et al. (1990)               |
-|               |        | citet* |          | Jones, Baker, and Williams (1990) |
-|               |        |        |          | (Jones et al., 1990)              |
+| full authors  |        | citet* |          | Jones, Baker, and Williams (1990) |
+|               |        |        |          |                                   |
 |               |        |        |          |                                   |
 |---------------+--------+--------+----------+-----------------------------------|
-| parenthetical |        | citep  |          |                                   |
+| parenthetical |        | citep  |          | (Jones et al., 1990)              |
 |               |        | citep* |          |                                   |
 | chapterbib    |        |        |          |                                   |
 | bibentry      |        |        |          |                                   |
