@@ -12,12 +12,12 @@ http://merkel.zoneo.net/Latex/natbib.php
 | to natbib      | \let\cite\citep    | \citep             | natbib=true                   |                                    |                   |
 | to biblatex    |                    |                    | \let\cite\parencite           |                                    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| textual        | \cite              | \citet             | \textcite  \autocite  \cite   | Jones et al. (1990)                | Jones et al. [21] |
+| textual        | \cite              | \citet             | \textcite    \cite            | Jones et al. (1990)                | Jones et al. [21] |
 | full authors   |                    | \citet*            |                               | Jones, Baker, and Williams (1990)  |                   |
 |                |                    | \citealt           |                               | Jones et al. 1990                  |                   |
 |                |                    | \citealt*          |                               | Jones, Baker, and Williams 1990    |                   |
 |----------------+--------------------+--------------------+-------------------------------+------------------------------------+-------------------|
-| parenthetical  |                    | \citep             | \parencite                    | (Jones et al., 1990)               | [21]              |
+| parenthetical  |                    | \citep             | \autocite    \parencite       | (Jones et al., 1990)               | [21]              |
 |                |                    | \citep*            |                               | (Jones, Baker, and Williams, 1990) |                   |
 |                |                    | \citealp           |                               | Jones et al., 1990                 |                   |
 |                |                    | \citealp*          |                               | Jones, Baker, and Williams, 1990   |                   |
