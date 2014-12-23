@@ -19,8 +19,8 @@ http://merkel.zoneo.net/Latex/natbib.php
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
 | authoryear    |        | citeauthor  |          | Jones et al.                       |                   |
 |               |        | citeauthor* |          | Jones, Baker, and Williams         |                   |
-|               |        | citeyear    |          |                                    |                   |
-|               |        | citeyearpar |          |                                    |                   |
+|               |        | citeyear    |          | 1990                               |                   |
+|               |        | citeyearpar |          | (1990)                             |                   |
 |---------------+--------+-------------+----------+------------------------------------+-------------------|
 | chapterbib    |        |             |          |                                    |                   |
 | bibentry      |        |             |          |                                    |                   |
