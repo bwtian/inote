@@ -10,7 +10,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | textual       |        | citet    |          | Jones et al. (1990)                | Jones et al. [21] |
 | full authors  |        | citet*   |          | Jones, Baker, and Williams (1990)  |                   |
 |               |        | citealt  |          | Jones et al. 1990                  |                   |
-|               |        | citealt* |          |                                    |                   |
+|               |        | citealt* |          | Jones, Baker, and Williams 1990    |                   |
 |---------------+--------+----------+----------+------------------------------------+-------------------|
 | parenthetical |        | citep    |          | (Jones et al., 1990)               | [21]              |
 |               |        | citep*   |          | (Jones, Baker, and Williams, 1990) |                   |
