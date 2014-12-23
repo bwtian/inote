@@ -235,5 +235,24 @@ http://www.tug.org.in/tutorial/chap10-prn.pdf
 http://www.linmpi.mpg.de/english/services/software/latex/localtex/doc/natbib.pdf 
  
   
- 
+up vote
+10
+down vote
+(You are possibly referring to my answer to What to do to switch to biblatex?)
+
+For citations that aren't used in the flow of the text ("As Einstein (1905) showed ...", produced by \textcite), biblatex offers four basic citation commands resp. package options:
+
+\cite [autocite=plain]: Citations are typeset as-is;
+
+\parencite [autocite=inline]: Citations are typeset in parentheses;
+
+\footcite [autocite=footnote]: Citations are typeset as footnotes;
+
+\supercite [autocite=superscript] (only available for the numeric style family): Citations are typeset as superscripts.
+
+Instead of choosing one of those four commands, one may simply use the higer-level command \autocite; biblatex will automatically translate it into the lower-level citation command most appropriate for the style family (e.g., \parencite for authoryear, \footcite for authortitle).
+
+If you want to switch to a non-default citation command (e.g., \footnote for authoryear), you simply add the corresponding package option:
+
+\usepackage[style=authoryear,autocite=footnote]{biblatex} 
   
