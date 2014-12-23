@@ -30,7 +30,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 | chapterbib    |                 |             |                               |                                    |                   |
 | bibentry      |                 |             |                               |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
-|               | plain           | plainat     | style=numeric                 |                                    |                   |
+| Style         | plain           | plainat     | style=numeric                 |                                    |                   |
 |               | abbrv           | abbrvnat    | style=numeric,firstinits=true |                                    |                   |
 |               | unsrt           |             | style=numeric,sorting=none    |                                    |                   |
 |               | alpha           |             | style=alphabetic              |                                    |                   |
