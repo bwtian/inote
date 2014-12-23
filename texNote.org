@@ -30,7 +30,7 @@ http://merkel.zoneo.net/Latex/natbib.php
 |---------------+--------+-------------+-------------------------------+------------------------------------+-------------------|
 |               | plain  | plainat     | style=numeric                 |                                    |                   |
 |               | abbrv  | abbrvnat    | style=numeric,firstinits=true |                                    |                   |
-|               | unsrt  |             |                               |                                    |                   |
+|               | unsrt  |             | style=numeric,sorting=none    |                                    |                   |
 |               | alpha  |             | style=alphabetic              |                                    |                   |
 |---------------+--------+-------------+-------------------------------+------------------------------------+-------------------|
 plain --> \usepackage[style=numeric]{biblatex}
