@@ -105,3 +105,28 @@ One of the nice things about biblatex is that you can subdivide bibliographies a
 \printbibheading
 \printbibliography[keyword=major,heading=subbibliography,title={Major Sources}]
 \printbibliography[keyword=minor,heading=subbibliography,title={Minor Sources}]
+Note that I used \autocite instead of \parencite which is the actual counterpart of natbib's \citep. \autocite is a high-level citation command that will be translated into the low-level bare citation command appropriate for the chosen style - e.g. it will enclose a citation in parentheses in authoryear styles, but produce a footnote citation in authortitle styles. Even more, it will automatically move trailing punctuation.
+
+For some of the custom (not already built-in) biblatex styles, additional preamble adjustments may be advisable - see the example provided by Seamus for biblatex-apa.
+
+As Simon Byrne has mentioned: If you don't want to change every instance of \citep and \citet in every document to its biblatex counterpart, use the natbib=true compatibility option.
+
+Typically, you'll select one or several local .bib files as your bibliographic database; however, \addbibresource also allows to load remote resources and other data types (e.g., ris).
+
+.bib file
+
+domwass has already mentioned that changes to your .bib files are not mandatory, but you'll miss some of the goodies offered by biblatex. When I switched to biblatex, I changed my address fields to location and my journal fields to journaltitle. I also added hyphenation fields in order to be able to switch languages on a per-entry basis in the bibliography.
+
+Biber
+
+biblatex will work for the most part with traditional BibTeX and its 8-bit version bibtex8, but I recommend the use of Biber (the default backend since biblatex v2.0) for the following reasons:
+
+Full unicode support.
+
+No capacity issues. (In contrast, when using BibTeX with bibliographies of about one hundred entries, I've run into errors disguised as obscure warnings - see section 2.4.2 of the biblatex manual for details.)
+
+Multiple or subdivided bibliographies will always be processed in a single pass.
+
+Many biblatex features introduced since v1.1 (e.g., advanced name disambiguation, smart crossref data inheritance, configurable sorting schemes, dynamic datasource modification) are "Biber only".
+
+Biber is included in TeXLive and MiKTeX; latexmk also supports the use of Biber.
