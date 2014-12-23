@@ -5,9 +5,9 @@ http://merkel.zoneo.net/Latex/natbib.php
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
 | Backend       | bibtex          | bibtex      | biber                         |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
-| to bibtex     | cite            |             | cite                          | \citeX{jon90}                      |                   |
-| to natbib     | \let\cite\citep | citep       | natbib=true                   |                                    |                   |
-| to biblatex   |                 |             | cite                          |                                    |                   |
+| to bibtex     | \cite           |             | \cite                         | \citeX{jon90}                      |                   |
+| to natbib     | \let\cite\citep | \citep      | natbib=true                   |                                    |                   |
+| to biblatex   |                 |             | \cite                         |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
 | textual       |                 | citet       |                               | Jones et al. (1990)                | Jones et al. [21] |
 | full authors  |                 | citet*      |                               | Jones, Baker, and Williams (1990)  |                   |
@@ -27,8 +27,8 @@ http://merkel.zoneo.net/Latex/natbib.php
 | \defcitealias |                 | citetalias  |                               | Paper1                             |                   |
 |               |                 | citepalias  |                               | (Paper1)                           |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
-| chapterbib    |                 |             |                               |                                    |                   |
-| bibentry      |                 |             |                               |                                    |                   |
+| chapterbib    |                 |             | refsection=chapter            |                                    |                   |
+| bibentry      | \bibentry       | \bibentry   | \fullcite                     |                                    |                   |
 |---------------+-----------------+-------------+-------------------------------+------------------------------------+-------------------|
 | Style         | plain           | plainat     | style=numeric                 |                                    |                   |
 |               | abbrv           | abbrvnat    | style=numeric,firstinits=true |                                    |                   |
