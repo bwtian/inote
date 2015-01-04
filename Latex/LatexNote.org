@@ -1,0 +1,56 @@
+#+TITLE:LatexNote
+#+AUTHOR: Bingwei TIAN
+#+EMAIL: bwtian@gmail.com
+#+INFOJS_OPT:
+#+Created: <2013-10-22 Tue>
+
+* Installation
+** Tex
+** Tex Editors
+http://en.wikipedia.org/wiki/Comparison_of_TeX_editors
+|--------+----------+--------+------------+---|
+| Editor | Texmaker | AucTex | ShareLatex |   |
+|--------+----------+--------+------------+---|
+|        |          |        |            |   |
+|--------+----------+--------+------------+---|
+WriteLatex: https://www.writelatex.com/
+ShareLatex: https://www.sharelatex.com 411+5=16
+* Glossaries, Acronyms, Abbreviations, Symbols, Nomenclatures, vocabulary, definitions 
+http://www.dickimaw-books.com/latex/thesis/html/makeglossaries.html
+http://tex.stackexchange.com/questions/86666/how-to-create-both-list-of-abbreviations-and-list-of-nomenclature-using-nomencl
+http://www.latex-community.org/know-how/263-glossaries-nomenclature-lists-of-symbols-and-acronyms
+|----------+---------+---------+--------+----------+------------|
+| Packages | acronym | nomencl | acro   | glossary | glossaries |
+|----------+---------+---------+--------+----------+------------|
+| for      | paper   | paper   | thesis | thesis   | theis      |
+|----------+---------+---------+--------+----------+------------|
+|          |         |         |        |          |            |
+
+
+#+BEGIN_LaTeX
+\documentclass{article}
+\usepackage[colorlinks]{hyperref}
+\usepackage[acronym]{glossaries} % make a separate list of acronyms
+
+\makeglossaries
+
+\newglossaryentry{sample}{name={sample},
+description={a sample entry}}
+
+\newacronym[\glsshortpluralkey=cas,\glslongpluralkey=contrived
+acronyms]{aca}{aca}{a contrived acronym}
+
+\begin{document}
+A \gls{sample} entry and \gls{aca}. Second use: \gls{aca}.
+
+Plurals: \glspl{sample}. Reset acronym\glsreset{aca}.
+First use: \glspl{aca}. Second use: \glspl{aca}.
+
+\printglossaries
+
+\end{document}
+latex doc
+ makeglossaries doc
+ latex doc
+ 
+#+END_LaTeX
