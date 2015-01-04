@@ -1,0 +1,7 @@
+|--------------+---------+-----+----------+-------+-----+----------+-------+--------+-----+---------+--------|
+| Functions    | R       | Web | Windows  | Linux | Mac | Emacs    | Latex | Python | KDE | Gnome   | Others |
+|--------------+---------+-----+----------+-------+-----+----------+-------+--------+-----+---------+--------|
+| Word Processing        | knitr   | G   | MS Word  |       |     | org-mode |       |        |     |         |        |
+| Presentation | slidify |     | MS PPT   |       |     |          |       |        |     |         |        |
+| Spreadsheet  |         |     | MS EXcel |       |     |          |       |        |     |         |        |
+| Diagram      | diagram |     | MS Visio |       |     |          | Tikz  |        |     | LO Draw | Dia    |
