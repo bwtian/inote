@@ -1,0 +1,16 @@
+0ref
+1data
+2code
+3results
+	3results/image
+	3results/map
+4text
+	4text/1latex
+	4text/2doc
+	4text/3org
+	4text/4md
+5publish
+	5publish/1pdf
+	5publish/2doc
+	5publish/3xml
+	5publish/4ppt
