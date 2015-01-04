@@ -1,0 +1,116 @@
+#+TITLE: Free GeoData List
+#+AUTHOR: Bingwei TIAN
+#+EMAIL: bwtian@gmail.com
+#+Updated:<2013-09-26 Thu>
+
+* Data in R link
+|   |   |   |   |   |
+|---+---+---+---+---|
+|   |   |   |   |   |
+
+
+
+
+
+* Collections
+http://en.wikipedia.org/wiki/List_of_GIS_data_sources
+http://www.viewfinderpanoramas.org/dem3.htmlhttp://mrdata.usgs.gov/
+http://mrdata.usgs.gov/
+http://en.wikipedia.org/wiki/Geoportal
+http://freegisdata.rtwilson.com/
+https://lib.stanford.edu/GIS/data
+http://www.diva-gis.org/Data
+* API
+
+** GIS
+
+*** QGIS
+    - Openlayers
+    -
+
+*** ArcGIS
+*** R
+    
+* Earth Explorer: All kinds of Geosaptial data
+** Wikipedia http://en.wikipedia.org/wiki/Main_Page
+** USGS http://earthexplorer.usgs.gov
+   Remote Sensing, DEM, LUCC,
+** USGS2:http://glovis.usgs.gov/
+
+* Administrative Vector
+** Global
+   1. Nature-Earth:http://www.naturalearthdata.com
+   2. GADM: Global Administrative Areas http://www.gadm.org 
+      - getData(raster)
+   3. DIVA-GIS:http://www.diva-gis.org/gdata
+   4. SALB:http://www.unsalb.org/index.php?option=com_content&view=article&id=52&Itemid=62
+   5. DCW: Digital Chart of the World
+   6. CIESIN：http://www.ciesin.columbia.edu
+** Japan
+   1. Japan GIS: http://nlftp.mlit.go.jp/ksj/gml/gml_datalist.html
+   2. 基盤地図情報: http://fgd.gsi.go.jp/download/GsiDLLoginServlet
+   3. QGIS Book:http://earthgis1.isc.chubu.ac.jp/Jikken/WebGISarea.html
+   4. Esri-Japan: http://www.esrij.com/products/data/japan-shp/
+   5. GIS data Store: http://www.gisdata-store.biz/
+|----------+---------+------+---+---|
+| Japan_   | Ver71   | adm  |   |   |
+|----------+---------+------+---+---|
+| Producer | ESRI J  | GADM |   |   |
+| Project  | JGD2000 |      |   |   |
+|          |         |      |   |   |
+|          |         |      |   |   |
+|          |         |      |   |   |
+|          |         |      |   |   |
+|          |         |      |   |   |
+|----------+---------+------+---+---|
+* Population
+** Global
+   1. Grided:http://sedac.ciesin.columbia.edu/data/collection/gpw-v3/sets/browse
+** Japan
+   1. http://www.e-stat.go.jp/SG1/estat/List.do?bid=000001034991&cycode=0
+* Earthquakes
+
+** Global
+   1.NCEDC EQ List: http://www.ncedc.org/anss/catalog-search.html
+** Japan
+   1. 2011311 Earthquake:http://www.mlit.go.jp/kokudoseisaku/gis/gis/shinsai-link.html
+* Landslides
+** Japan
+   1. NIED http://lsweb1.ess.bosai.go.jp/gis-data/
+* Volcanoes
+** Global
+   1. http://volcano.oregonstate.edu/oldroot/volcanoes/alpha.html
+* Nuclear
+** Japan
+   1. JAEA: http://radb.jaea.go.jp/mapdb/download.html#doserates
+* Remote Sensing
+** Global
+   1. USGS http://earthexplorer.usgs.gov
+   2. USGS2:http://glovis.usgs.gov/
+
+* DEM
+* Climate and Weather
+
+** Global
+*** WorldClim: http://www.worldclim.org
+**** How to download
+     raster::getData("worldclim",...)
+*** Rainfall
+*** Temperature
+** Japan
+   1. http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G02.html
+   2. http://www.data.jma.go.jp/gmd/risk/obsdl/index.php
+
+* Biodiversity
+** Japan
+   1. http://www.biodic.go.jp/trialSystem/shpddl.html
+* Soil
+** Global
+   1. FAO:http://www.fao.org/geonetwork/srv/en/metadata.show?id=14116
+   2. Harmonized: http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/
+* UN Statistics
+  1) http://data.un.org/
+  2)
+* Geology
+NZ :http://www.gns.cri.nz/Home/Our-Science/Earth-Science/Regional-Geology/Geological-Maps/1-250-000-Geological-Map-of-New-Zealand-QMAP/Digital-Data-and-Downloads
+
