@@ -1,0 +1,89 @@
+* Open Source GIS software
+|----+----------------+-----------+--------+---+---+---|
+| ID | Ranking        | Developer | Format |   |   |   |
+|----+----------------+-----------+--------+---+---+---|
+|  0 | Desktop        |           |        |   |   |   |
+|  1 | GRASS GIS      |           |        |   |   |   |
+|  2 | QGIS           |           |        |   |   |   |
+|  3 | SAGA GIS       |           |        |   |   |   |
+|  4 | R GIS          |           |        |   |   |   |
+|  5 | gvSIG          |           |        |   |   |   |
+|  6 | DIVA-GIS       | ucdvais   |        |   |   |   |
+|----+----------------+-----------+--------+---+---+---|
+|  7 | ILWIS          |           |        |   |   |   |
+|  8 | JUMP GIS       |           |        |   |   |   |
+|  9 | uDig           |           |        |   |   |   |
+| 10 | WhiteBox GAT   |           |        |   |   |   |
+| 11 | MapWindow      |           |        |   |   |   |
+| 12 | Capaware       |           |        |   |   |   |
+| 13 | FalconView     |           |        |   |   |   |
+| 14 | Kalyspo        |           |        |   |   |   |
+| 15 | Terra View     |           |        |   |   |   |
+|----+----------------+-----------+--------+---+---+---|
+|----+----------------+-----------+--------+---+---+---|
+|  0 | Web Servers    |           |        |   |   |   |
+|    | Open Street    |           |        |   |   |   |
+|  1 | Mapserver      |           |        |   |   |   |
+|    | Geoserver      |           |        |   |   |   |
+|    | Mapnik         |           |        |   |   |   |
+|----+----------------+-----------+--------+---+---+---|
+|----+----------------+-----------+--------+---+---+---|
+|  0 | Spatial DB     |           |        |   |   |   |
+|  1 | PostGIS        |           |        |   |   |   |
+|  2 | Oracle spatial |           |        |   |   |   |
+|  3 |                |           |        |   |   |   |
+|----+----------------+-----------+--------+---+---+---|
+* 
+* Table. 1 Softwares
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+| C/S   | Online Map    | Freeviewer | Services      | Complete    | Mobie         | Map Server | Spatial DB | Libraries        | Standard |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+|       | Online GIS    | Desktop    | Desktop       | Desktop     | Mobile        | Map Server | Spatial    | Develop          |          |
+|       | Cloud/web GIS | Viewer     | 3D Services   | Toolbox     | Field data    | Database   | DBMS       | Environment      |          |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+| e.g   | Google Map    | ArcReader  | ArcExplorer   | ArcMap      | ArcMobile     | ArcServer  | Oracle     | ArcEngine        | GML      |
+|       |               |            | Goolge Earth  | (ArcView)   | (ArcPAD,ESRI) | ArcIMS     | Spatial    | ArcSDE           | XML      |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+| Open  | Open Street   | All OSGeo  | World Wind    | Quantum GIS | Quantum GIS   | Mapserver  | PostGIS    | GDAL/OGR         | WMS      |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+| Other |               |            |               | GRASS GIS   |               | Geoserver  | SpatiaLite | OrfeoToolbox     | WFS      |
+| Open  |               |            |               | SAGA GIS    |               | Mapink     | Terralib   | GeoTools         | WCS      |
+| GIS   |               |            |               | gvSIG       |               | MapGuild   |            | PROJ4            | WCPS     |
+|       |               |            |               | R+GIS       |               |            |            | GeoBase(web)     | WMTS     |
+|       |               |            |               | ILWIS       |               |            |            | OpenLayers(ajax) | WPS      |
+|       |               |            |               | FWTools     |               |            |            | GeoMajas(web)    |          |
+|       |               |            |               | uDIg        |               |            |            | Mapfish(web)     |          |
+|       |               |            |               | JUMP GIS    |               |            |            |                  |          |
+|       |               |            |               | MapWindow   |               |            |            |                  |          |
+|       |               |            |               | Whitebox... |               |            |            |                  |          |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+| Cost  |               |            | Virtual Earth | Mapinfo     |               | Map point  | DB2        |                  |          |
+|       |               |            | Ev-Globle     | AutoDesk    |               |            | Informix   |                  |          |
+|       |               |            | Geo-Globle    | Intergraphy |               |            | SQL Server |                  |          |
+|       |               |            | Ala-GIS       | Suppermap   |               |            | Terradata  |                  |          |
+|       |               |            | VRMap...      | Bentley...  |               |            | VMDS       |                  |          |
+|-------+---------------+------------+---------------+-------------+---------------+------------+------------+------------------+----------|
+
+
+* Table. 2 Software and Fuctions
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+| C/S      | 1.Online Map  | 2.Freeviewer | 3.Services   | 4.Complete  | 5.Mobie       | 6.Map Server | 7.Spatial DB | 8.Libraries |
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+|          | Cloud/Web GIS | Desktop      | Desktop      | Desktop     | Mobile        | Map Server   | Spatial      | Develop     |
+|          | Based on 6&7  | Viewer       | 3D           | Toolbox     | Field data    | Database     | DBMS         | Environment |
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+| ArcGIS   | Google Map    | ArcReader    | ArcExplorer  | ArcMap      | ArcMobile     | ArcServer    | Oracle       | ArcEngine   |
+| Good+    | CartoDB       |              | Goolge Earth | (ArcView)   | (ArcPAD,ESRI) | ArcIMS       | Spatial      | ArcSDE      |
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+| Open++   | OpenStreetMap | OSGeo Softs  | World Wind   | Quantum GIS | Quantum GIS   | Mapserver    | PostGIS      | GDAL/OGR    |
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+| Fuctions | OnlineMap     |              |              |             |               |              |              |             |
+|          | View          |              |              |             |               |              |              |             |
+|          | Mesure        |              |              |             |               |              |              |             |
+|          |               |              |              |             |               |              |              |             |
+|          |               |              |              |             |               |              |              |             |
+|          |               |              |              |             |               |              |              |             |
+|          |               |              |              |             |               |              |              |             |
+|          |               |              |              |             |               |              |              |             |
+|----------+---------------+--------------+--------------+-------------+---------------+--------------+--------------+-------------|
+
